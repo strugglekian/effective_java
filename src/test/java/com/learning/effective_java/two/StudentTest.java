@@ -13,7 +13,6 @@ public class StudentTest {
     public void testGetStudentInstance() {
         Student student = new Student.Builder("Mr Kang", "Mrs Bei").age(28).height(175).name("kian").build();
         System.out.println(student.toString());
-
     }
 
 }

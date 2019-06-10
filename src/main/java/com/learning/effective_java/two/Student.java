@@ -12,11 +12,11 @@ import java.util.Objects;
 @ToString
 public class Student {
 
-    private String name;
-    private Integer age;
-    private String father;
-    private String mother;
-    private Integer height;
+    private final String name;
+    private final Integer age;
+    private final String father;
+    private final String mother;
+    private final Integer height;
 
     public static class Builder {
         //可选的参数
@@ -34,7 +34,7 @@ public class Student {
         }
 
         public Builder height(int height) {
-            this.height = Objects.requireNonNull(height);
+            this.height = height;
             return this;
         }
 
@@ -44,7 +44,7 @@ public class Student {
         }
 
         public Builder age(int age) {
-            this.age = Objects.requireNonNull(age);
+            this.age = age;
             return this;
         }
 
