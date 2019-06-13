@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * 普通单例模式，考虑序列化对单例模式的影响
+ * 单例模式下不该有set方法？（自我体会）
  * @author kkf7688
  */
 public class Elvis implements Serializable {

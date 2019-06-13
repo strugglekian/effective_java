@@ -3,7 +3,7 @@ package com.learning.effective_java.two;
 import lombok.ToString;
 
 /**
- * @data 2019/6/8
+ * @date 2019/6/8
  * @auther kian
  */
 @ToString

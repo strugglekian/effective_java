@@ -6,7 +6,7 @@ import java.util.Set;
 
 /**
  * 类层次的构造器
- * @data 2019/6/8
+ * @date 2019/6/8
  * @auther kian
  */
 public abstract class Pizza {

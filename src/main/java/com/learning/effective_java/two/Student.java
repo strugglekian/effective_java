@@ -6,7 +6,7 @@ import java.util.Objects;
 
 /**
  *构造器，当
- * @data 2019/6/7
+ * @date 2019/6/7
  * @auther kang
  */
 @ToString

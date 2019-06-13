@@ -5,7 +5,7 @@ import lombok.ToString;
 import java.util.Objects;
 
 /**
- * @data 2019/6/8
+ * @date 2019/6/8
  * @auther kang
  */
 @ToString

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 /**
  * @author kian
- * @data 2019/6/10
+ * @date 2019/6/10
  */
 public class AbstractFigureTest {
 
