@@ -14,4 +14,8 @@ public class Super {
     public void overrideMe() {
         System.out.println(1);
     }
+
+    public static void canNotOverride(){
+        System.out.println("can not be override.");
+    }
 }
