@@ -1,6 +1,7 @@
 package com.learning.effective_java.two;
 
 import java.io.Serializable;
+import java.lang.annotation.Annotation;
 
 /**
  * 普通单例模式，考虑序列化对单例模式的影响
