@@ -1,5 +1,6 @@
 package com.learning.effective_java.six;
 
+
 /**
  * 用具体的方法覆盖每个常量的抽象方法，这种方法被称作特定于常量的方法实现
  * 枚举于抽象方法
@@ -41,9 +42,7 @@ public enum Operation {
 
     @Override
     public String toString() {
-        return "Operation{" +
-                "symbol='" + symbol + '\'' +
-                '}';
+        return symbol;
     }
 
     public abstract double apply(double x, double y);
