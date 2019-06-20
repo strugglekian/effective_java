@@ -28,27 +28,27 @@ public class Student {
         private final String father;
         private final String mother;
 
-        public Builder(String father, String mother) {
+        Builder(String father, String mother) {
             this.father = Objects.requireNonNull(father);
             this.mother = Objects.requireNonNull(mother);
         }
 
-        public Builder height(int height) {
+        Builder height(int height) {
             this.height = height;
             return this;
         }
 
-        public Builder name(String name) {
+        Builder name(String name) {
             this.name = Objects.requireNonNull(name);
             return this;
         }
 
-        public Builder age(int age) {
+        Builder age(int age) {
             this.age = age;
             return this;
         }
 
-        public Student build() {
+        Student build() {
             return new Student(this);
         }
     }
