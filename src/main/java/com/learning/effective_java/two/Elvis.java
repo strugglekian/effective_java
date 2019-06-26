@@ -1,5 +1,6 @@
 package com.learning.effective_java.two;
 
+import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.lang.annotation.Annotation;
 
@@ -34,4 +35,6 @@ public class Elvis implements Serializable {
     public void leaveTheBuilding(){
         System.out.println("this is Elvis singleton! you need to consider serializable class!");
     }
+
+
 }

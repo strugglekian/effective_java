@@ -25,5 +25,6 @@ public class SetList2 {
         System.out.println(random.nextInt());
         ThreadLocalRandom threadLocalRandom = ThreadLocalRandom.current();
         System.out.println(threadLocalRandom.nextInt());
+//        NoSuchElementException
     }
 }
