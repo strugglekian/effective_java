@@ -11,4 +11,5 @@ public class Cat implements LifeInstinct{
     public void eat() {
         System.out.println("cat like fish");
     }
+
 }

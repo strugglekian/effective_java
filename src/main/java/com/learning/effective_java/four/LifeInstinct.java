@@ -6,4 +6,10 @@ public interface LifeInstinct {
     default void breathe(){
         System.out.println("every animal need breathe");
     }
+
+
+    static String miao(){
+        return "miao miao miao!";
+    }
+
 }

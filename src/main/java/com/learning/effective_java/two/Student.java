@@ -48,7 +48,7 @@ public class Student {
             return this;
         }
 
-        private Student build() {
+        public Student build() {
             return new Student(this);
         }
     }
